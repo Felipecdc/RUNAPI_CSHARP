@@ -11,6 +11,12 @@
 # Ignorar binários gerados
 /bin/
 /obj/
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+*.db
 
 # Ignorar pastas de dependências (caso tenha)
 node_modules/

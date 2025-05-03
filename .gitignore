@@ -1,0 +1,37 @@
+# Ignorar arquivos de configuração de IDE
+.idea/
+.vscode/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar variáveis de ambiente (como .env)
+.env
+
+# Ignorar binários gerados
+/bin/
+/obj/
+
+# Ignorar pastas de dependências (caso tenha)
+node_modules/
+vendor/
+
+# Ignorar arquivos de build
+dist/
+build/
+
+# Ignorar arquivos específicos do Docker
+docker-compose.override.yml
+.docker/
+
+# Ignorar arquivos temporários
+*.swp
+*.swo
+
+# Ignorar arquivos de configuração local (como appsettings.json)
+appsettings.Development.json
+appsettings.json
+
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db

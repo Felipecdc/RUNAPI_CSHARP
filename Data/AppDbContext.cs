@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using User.Models;
 using UserModel = User.Models.User;
+using User.Data;
 
 namespace User.Data
 {
